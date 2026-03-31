@@ -1,4 +1,4 @@
-//go:build !re2_wasm
+//go:build !re2_wasm && ((linux && (amd64 || arm64)) || (windows && amd64))
 
 package cre2
 
