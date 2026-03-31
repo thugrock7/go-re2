@@ -1,4 +1,4 @@
-//go:build !re2_wasm && re2_use_pkgconfig
+//go:build !re2_wasm && ((linux && (amd64 || arm64)) || (windows && amd64))
 
 /*
   Header  file  for  CRE2, a  C  language  wrapper  for RE2:  a  regular
