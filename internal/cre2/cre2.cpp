@@ -1,4 +1,4 @@
-//go:build !re2_wasm
+//go:build !re2_wasm && re2_use_pkgconfig
 
 /*
   Source  file	for  CRE2, a  C	 language  wrapper  for RE2:  a	 regular
